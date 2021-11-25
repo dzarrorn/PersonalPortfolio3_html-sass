@@ -1,0 +1,214 @@
+@import "modules/general";
+@import "modules/grid";
+@import "modules/typo";
+@import "modules/spacer";
+@import "modules/image";
+@import "modules/background";
+@import "modules/button";
+@import "modules/shadow";
+@import "modules/border";
+@import "modules/color";
+
+// header
+header {
+    padding: 1.5rem 0;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+
+    .navbar {
+        a {
+            color: white;
+            padding: 10px 20px;
+
+            &:hover {
+                background: white;
+                color: $lightorange;
+            }
+        }
+
+        .button {
+
+            background: $orange;
+            border-radius: 30px;
+
+            &:hover {
+                background: none;
+                border: 1px solid $lightorange;
+                color: $lightorange;
+            }
+        }
+    }
+}
+
+// home
+.talk {
+    font-size: 1.5rem;
+
+    &:hover {
+
+        a,
+        i {
+            font-size: 2rem;
+        }
+    }
+}
+
+#burger {
+    display: none;
+}
+
+.rotate {
+    padding-left: 15rem;
+    transform: rotate(90deg);
+    letter-spacing: 4rem;
+    color: $halfwhite;
+}
+
+// about
+.CV {
+    padding: 1rem 2rem;
+    background: $orange;
+    border-radius: 50px;
+
+
+    &:hover {
+        border: 1px solid $lightorange;
+        background: transparent;
+        color: $lightorange;
+
+    }
+}
+
+// services
+.box {
+    padding: 6rem 2.5rem;
+    border-radius: 50px;
+    transition: .5s;
+
+    &:hover {
+        border: 1px solid $lightorange;
+        background: transparent;
+        color: $lightorange;
+        cursor: pointer;
+    }
+}
+
+//portfolio
+.port:hover {
+    transform: scale(1.3);
+}
+
+.number {
+    border-radius: 25px;
+    padding: 3rem;
+}
+
+.item {
+    padding-left: 3rem;
+    border-left: 1px solid white;
+
+    &:hover {
+        color: $halfwhite;
+        cursor: pointer;
+    }
+}
+
+.left {
+    padding-left: 3rem;
+
+    &:hover {
+        color: $halfwhite;
+        cursor: pointer;
+    }
+}
+
+// contact
+.share {
+    a {
+        color: white;
+        background: $halfwhite;
+        height: 5rem;
+        width: 5rem;
+        line-height: 5rem;
+        border-radius: 50%;
+        margin: 0.5rem;
+
+        &:hover {
+            background: $orange;
+            transform: scale(1.2);
+            transition: .5s;
+        }
+    }
+}
+
+@media screen and(max-width:1024px) {
+
+    // home
+    .rotate {
+        display: none;
+    }
+}
+
+@media screen and(max-width:768px) {
+
+    // header
+    #burger {
+        display: block;
+    }
+
+    .navbar {
+        background: $halfblack;
+        position: absolute;
+        top: 99.2%;
+        right: -100%;
+        width: 70%;
+        height: 100vh;
+
+        a {
+            text-align: center;
+            display: block;
+            margin-top: 7.5rem;
+        }
+
+        .button {
+            margin: 7.5rem 25%;
+        }
+
+        &.active {
+            right: 0;
+        }
+    }
+}
+
+@media screen and(max-width:414px) {
+
+    // services
+    .box:nth-child(even) {
+        display: none;
+    }
+
+    // portfolio
+    .port:nth-child(even) {
+        display: none;
+    }
+
+    .number {
+        background: none;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+
+        .left,
+        .item {
+            border-left: none;
+            padding-left: 0;
+
+        }
+
+        .item:nth-child(2) {
+            margin: 3rem 0;
+        }
+    }
+}
