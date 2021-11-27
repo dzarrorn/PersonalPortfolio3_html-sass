@@ -42,6 +42,10 @@ header {
     }
 }
 
+#burger {
+    display: none;
+}
+
 // home
 .talk {
     font-size: 1.5rem;
@@ -55,9 +59,7 @@ header {
     }
 }
 
-#burger {
-    display: none;
-}
+
 
 .rotate {
     padding-left: 15rem;
