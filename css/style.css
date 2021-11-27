@@ -1,3 +1,111 @@
+.bg-image {
+  background-image: url(/img/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.bg-image2 {
+  background-image: url(/img/background2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.bg-darkblue {
+  background: linear-gradient(113.49deg, #984D38 -30.3%, #181E41 58.12%);
+}
+
+.bg-orange {
+  background: linear-gradient(214.02deg, #EA5F5F 6.04%, #EEAA55 92.95%);
+}
+
+.bg-lightorange {
+  background: #EB7B5B;
+}
+
+.bg-halfblack {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.lightorange {
+  color: #EB7B5B;
+}
+
+.black {
+  color: black;
+}
+
+.white {
+  color: white;
+}
+
+.halfwhite {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.halfblack {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.quarterwhite {
+  color: rgba(255, 255, 255, 0.25);
+}
+
+.bg-image {
+  background-image: url(/img/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.bg-image2 {
+  background-image: url(/img/background2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.bg-darkblue {
+  background: linear-gradient(113.49deg, #984D38 -30.3%, #181E41 58.12%);
+}
+
+.bg-orange {
+  background: linear-gradient(214.02deg, #EA5F5F 6.04%, #EEAA55 92.95%);
+}
+
+.bg-lightorange {
+  background: #EB7B5B;
+}
+
+.bg-halfblack {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.lightorange {
+  color: #EB7B5B;
+}
+
+.black {
+  color: black;
+}
+
+.white {
+  color: white;
+}
+
+.halfwhite {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.halfblack {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.quarterwhite {
+  color: rgba(255, 255, 255, 0.25);
+}
+
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -3366,6 +3474,60 @@ h5 {
 
 .bor-bottom {
   border-bottom: 1px solid white;
+}
+
+.bg-image {
+  background-image: url(/img/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.bg-image2 {
+  background-image: url(/img/background2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.bg-darkblue {
+  background: linear-gradient(113.49deg, #984D38 -30.3%, #181E41 58.12%);
+}
+
+.bg-orange {
+  background: linear-gradient(214.02deg, #EA5F5F 6.04%, #EEAA55 92.95%);
+}
+
+.bg-lightorange {
+  background: #EB7B5B;
+}
+
+.bg-halfblack {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.lightorange {
+  color: #EB7B5B;
+}
+
+.black {
+  color: black;
+}
+
+.white {
+  color: white;
+}
+
+.halfwhite {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.halfblack {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.quarterwhite {
+  color: rgba(255, 255, 255, 0.25);
 }
 
 header {
